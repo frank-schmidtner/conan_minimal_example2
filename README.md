@@ -1,12 +1,6 @@
 # How to execute minimal example
 
-1. Build the external prebuild package mock with host profile
-
-```
-conan create -pr ./build_profile ./external_prebuild_package_mock test/test
-```
-
-2. Export all recipes
+1. Export all recipes
 
 ```
 conan export ./meta_package test/test
